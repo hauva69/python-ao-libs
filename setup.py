@@ -7,6 +7,6 @@ setup (
     url='https://github.com/hauva69/python-ao-libs',
     version='1.0',
     packages=['ao',],
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
 )
 
