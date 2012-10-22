@@ -1,11 +1,12 @@
 package: build
 	ln dist/python-ao-libs-1.0.tar.gz x/python-ao-libs_1.0.orig.tar.gz
+	ln README.md x/python-ao-libs-1.0/README.md
 
 build:
 	python setup.py sdist
 
 clean:
-	rm -rf dist
+	rm -rf dist x/python-ao-libs-1.0/README.md x/python-ao-libs_1.0.orig.tar.gz
 
 # http://wiki.debian.org/HowToPackageForDebian
 # http://wiki.debian.org/IntroDebianPackaging Introduction to Debian Packaging
