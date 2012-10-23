@@ -9,5 +9,5 @@ Package: python-ao-libs
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, python-support (>= 0.90)
 Description: Base package for arska.org python libraries
-  The base arska.org Python libraries. 
+	     The base arska.org Python libraries. 
 
