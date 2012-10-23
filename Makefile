@@ -1,6 +1,6 @@
 package: build
 	ln dist/python-ao-libs-1.0.tar.gz x/python-ao-libs_1.0.orig.tar.gz
-	ln README.md x/python-ao-libs-1.0/README.md
+	cd x && $(MAKE)
 
 build:
 	python setup.py sdist
