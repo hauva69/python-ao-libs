@@ -2,7 +2,7 @@ Source: python-ao-libs
 Maintainer: Ari Makela <hauva69@gmail.com>
 Section: python
 Priority: optional
-Standard-version: 3.9.2
+Standards-version: 3.9.2
 Build-Depends: debhelper (>= 8)
 
 Package: python-ao-libs
