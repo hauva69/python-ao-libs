@@ -1,0 +1,13 @@
+Source: python-ao-libs
+Maintainer: Ari Makela <hauva69@gmail.com>
+Section: python
+Priority: optional
+Standard-version: 3.9.2
+Build-Depends: debhelper (>= 8)
+
+Package: python-ao-libs
+Architecture: all
+Depends ${shlibs:Depends}, ${misc:Depends}
+Description: Base package for arska.org python libraries
+  The base arska.org Python libraries. 
+
