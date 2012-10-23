@@ -1,4 +1,6 @@
 *~
 MANIFEST
 dist
+*Makefile#
+*.swp
 
