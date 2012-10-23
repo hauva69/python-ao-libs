@@ -7,7 +7,7 @@ build:
 
 clean:
 	rm -rf dist
-	rm -f x/python-ao-libs-1.0/README x/python-ao-libs_1.0.orig.tar.gz
+	rm -f x/python-ao-libs-1.0/README x/python-ao-libs_1.0.orig.tar.gz 
 
 # http://wiki.debian.org/HowToPackageForDebian
 # http://wiki.debian.org/IntroDebianPackaging Introduction to Debian Packaging
