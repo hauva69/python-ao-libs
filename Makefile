@@ -10,6 +10,7 @@ clean:
 
 # http://wiki.debian.org/HowToPackageForDebian
 # http://wiki.debian.org/IntroDebianPackaging Introduction to Debian Packaging
+# https://help.ubuntu.com/community/BasicChroot
 # tar zxf dist/python-ao-libs_1.0.orig.tar.gz
 # cd pythona-ao-libs-1.0
 # mkdir debian
